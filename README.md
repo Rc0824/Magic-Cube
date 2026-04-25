@@ -26,8 +26,6 @@ A playable **3D Magic Cube** built with pure **HTML, CSS, and JavaScript**.
 | Rotate a cube layer | Left-drag a sticker |
 | Rotate the view | Left-drag the background |
 | Force view rotation | Right-drag or Shift-drag |
-| Rotate view by 90° | `↑` `↓` `←` `→` |
-| Rotate view around Z-axis | `Z↺` / `Z↻` |
 | Snap to nearest view | `Snap View` |
 | Undo previous move | `Undo` |
 | Scramble the cube | `Scramble` |
