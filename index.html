@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Magic Cube</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero">
+      <h1>3D Magic Cube</h1>
+      <p>Interactive Rubik’s Cube built with HTML, CSS, and JavaScript.</p>
+    </header>
+
+    <section class="game">
+      <aside class="panel">
+        <h2>How to play</h2>
+        <p class="info">
+          Left-drag a sticker to rotate a layer. Drag the background to rotate the 3D view.
+          Right-drag or Shift-drag anywhere also rotates the view.
+        </p>
+        <div class="status" id="gestureHint">Ready</div>
+      </aside>
+
+      <section class="scene" id="scene" aria-label="Playable 3D magic cube">
+        <div class="cube" id="cube"></div>
+      </section>
+
+      <aside class="panel">
+        <h2>View / Game</h2>
+        <div class="controls">
+          <button type="button" onclick="rotateViewStep('up')">↑</button>
+          <button type="button" onclick="rotateViewStep('down')">↓</button>
+          <button type="button" onclick="rotateViewStep('left')">←</button>
+          <button type="button" onclick="rotateViewStep('right')">→</button>
+          <button type="button" onclick="changeView('front')">Front</button>
+          <button type="button" onclick="changeView('back')">Back</button>
+          <button type="button" onclick="rotateViewZ(-90)">Z↺</button>
+          <button type="button" onclick="rotateViewZ(90)">Z↻</button>
+          <button type="button" onclick="snapView()">Snap View</button>
+          <button type="button" onclick="undoMove()">Undo</button>
+          <button type="button" class="primary wide" onclick="scramble()">Scramble</button>
+          <button type="button" class="danger wide" onclick="resetCube()">Reset</button>
+        </div>
+        <div class="status" id="status">Solved!</div>
+        <div class="status">Timer: <span id="timer">00:00</span></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="./cube.js"></script>
+</body>
+</html>
