@@ -1,30 +1,41 @@
-# Magic-Cube
 
-A playable 3D Magic Cube / Rubik’s Cube made with HTML, CSS, and JavaScript.
+如果你要讓 README 更像 GitHub 個人作品展示，我建議用這版：
 
-## Features
+```md
+# 🧊 Magic Cube
 
-- 3D cubies
+A playable **3D Magic Cube** built with pure **HTML, CSS, and JavaScript**.
+
+👉 **[Play it here](https://rc0824.github.io/Magic-Cube/)**
+
+## ✨ Features
+
+- Real 3D cube interaction
 - Drag stickers to rotate layers
-- Drag the background to rotate the view
-- Scramble / Reset
-- Undo
-- Timer
+- 360° view control
+- Smooth layer-turn animation
 - Snap View
+- Undo
+- Scramble and Reset
+- Built-in timer
 
-## Deploy on GitHub Pages
+## 🎮 Controls
 
-Put these files in the root of your `USERNAME.github.io` repository:
+| Action | Control |
+|---|---|
+| Rotate a layer | Left-drag a sticker |
+| Rotate view | Left-drag the background |
+| Force view rotation | Right-drag or Shift-drag |
+| Rotate view by 90° | `↑ ↓ ← →` |
+| Reset cube | `Reset` |
+| Scramble cube | `Scramble` |
+| Undo move | `Undo` |
+
+## 📁 Project Structure
 
 ```text
-index.html
-style.css
-cube.js
-README.md
-```
-
-Then open:
-
-```text
-https://USERNAME.github.io
-```
+Magic-Cube/
+├── index.html
+├── style.css
+├── cube.js
+└── README.md
