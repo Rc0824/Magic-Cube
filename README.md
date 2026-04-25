@@ -1,17 +1,15 @@
-
-如果你要讓 README 更像 GitHub 個人作品展示，我建議用這版：
-
-```md
 # 🧊 Magic Cube
 
 A playable **3D Magic Cube** built with pure **HTML, CSS, and JavaScript**.
 
 👉 **[Play it here](https://rc0824.github.io/Magic-Cube/)**
 
+---
+
 ## ✨ Features
 
 - Real 3D cube interaction
-- Drag stickers to rotate layers
+- Drag stickers to rotate cube layers
 - 360° view control
 - Smooth layer-turn animation
 - Snap View
@@ -19,17 +17,23 @@ A playable **3D Magic Cube** built with pure **HTML, CSS, and JavaScript**.
 - Scramble and Reset
 - Built-in timer
 
+---
+
 ## 🎮 Controls
 
 | Action | Control |
 |---|---|
-| Rotate a layer | Left-drag a sticker |
-| Rotate view | Left-drag the background |
+| Rotate a cube layer | Left-drag a sticker |
+| Rotate the view | Left-drag the background |
 | Force view rotation | Right-drag or Shift-drag |
-| Rotate view by 90° | `↑ ↓ ← →` |
-| Reset cube | `Reset` |
-| Scramble cube | `Scramble` |
-| Undo move | `Undo` |
+| Rotate view by 90° | `↑` `↓` `←` `→` |
+| Rotate view around Z-axis | `Z↺` / `Z↻` |
+| Snap to nearest view | `Snap View` |
+| Undo previous move | `Undo` |
+| Scramble the cube | `Scramble` |
+| Reset the cube | `Reset` |
+
+---
 
 ## 📁 Project Structure
 
